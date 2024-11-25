@@ -1,0 +1,13 @@
+[package]
+name = "task_manager"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-cors = "0.7.0"
+async-std = "1.13.0"
+rand = "0.8.5"
+rocket = "0.5.1"
+rocket_cors = "0.6.0"
+serde_json = "1.0.133"
+tokio = "1.41.1"
